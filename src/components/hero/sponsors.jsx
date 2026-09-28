@@ -20,7 +20,7 @@ const sponsors = () => {
             </div>
             <div className="sponsors-container-sub">
               <h1 className="sponsor-title">
-                <a href="https://hebesec.com/" target="_blank">
+                <a href="https://hebesec.com/" target="_blank" rel="noreferrer">
                   {" "}
                   Hebesec Technologies{" "}
                 </a>

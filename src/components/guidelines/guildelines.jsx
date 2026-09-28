@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./guidelines.css";
 
-const guildelines = () => {
+const Guidelines = () => {
   useEffect(() => {
     document.title = "Guidelines";
   });
@@ -21,19 +21,19 @@ const guildelines = () => {
               3. The last date for abstract submission is 28th August 2023. 📝🗓️{" "}
               <br />
               <br />
-              4. The project should be unique and shouldn't have ever been
+              4. The project should be unique and shouldn&apos;t have ever been
               published in any other journals or competitions. 🚀🔍 <br />
               <br />
               5. The event will have three phases of judge review. Projects will
               be evaluated every 8 hours from the beginning of the finale. 👁️‍🗨️🕒{" "}
               <br />
               <br />
-              6. The project's work should sustain the whole 24 hours; if it
+              6. The project&apos;s work should sustain the whole 24 hours; if it
               fails to do so, the team will be disqualified immediately. 🏆🕒❌{" "}
               <br />
               <br />
               7. Code of conduct is strictly monitored, and any case of
-              uncivilized behavior will result in the whole team's
+              uncivilized behavior will result in the whole team&apos;s
               disqualification. 🚫👮‍♂️❌ <br />
               <br />
             </div>
@@ -43,7 +43,7 @@ const guildelines = () => {
               <br />
               <br />
               9. The shortlisted/scrutinized teams for the finale of
-              "HACK-A-TANK" will be announced by 4:00 pm on the 29th of August
+              &quot;HACK-A-TANK&quot; will be announced by 4:00 pm on the 29th of August
               2023. 📣🏁 10. The Finale round begins at 10:00 am on 8th
               September 2023 and concludes at 5:00 pm on the 9th September 2023.
               🏁🕙🏁
@@ -69,4 +69,4 @@ const guildelines = () => {
   );
 };
 
-export default guildelines;
+export default Guidelines;

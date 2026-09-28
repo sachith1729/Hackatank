@@ -170,7 +170,7 @@ const Navbar = () => {
             </div>
             <div className="last-mobile">
               <h2 className="register-mobile">
-                <a href="https://forms.gle/mqHSf1kpoTUiMURH6" target="_blank">
+                <a href="https://forms.gle/mqHSf1kpoTUiMURH6" target="_blank" rel="noreferrer">
                   Register
                 </a>
               </h2>

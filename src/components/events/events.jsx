@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./events.css";
 import ReactGA from "react-ga";
 
-const events = () => {
+const Events = () => {
   const handleAbstract = () => {
     ReactGA.event({
       category: "Button",
@@ -126,7 +126,7 @@ const events = () => {
                 ideology, etc.
                 <br /> <br />
                 📢 The scrutinized/shortlisted teams for the final round of
-                "HACK-A-TANK" will be announced on the 30th of August 2023.
+                &quot;HACK-A-TANK&quot; will be announced on the 30th of August 2023.
                 <br /> <br />
                 💰 The Shortlisted team should proceed with their registration
                 by completing the payment of Rs 999/- per team on or before 3rd
@@ -144,7 +144,7 @@ const events = () => {
                 🎉 The commencement of the inaugural function is scheduled at
                 10:00 am on the 8th of September 2023.
                 <br /> <br />
-                ⏱️ The "HACK-A-TANK" event will begin at 1:00 pm on the 8th of
+                ⏱️ The &quot;HACK-A-TANK&quot; event will begin at 1:00 pm on the 8th of
                 September 2023 and will wrap up at 1:00 pm on the 9th of
                 September 2023.
                 <br /> <br />
@@ -158,7 +158,7 @@ const events = () => {
                 at all feasible times by the organizing committee.
                 <br /> <br />
                 🏆 The event will be concluded with the announcement of the cash
-                prize winners of the "HACK-A-TANK" event on the 9th of September
+                prize winners of the &quot;HACK-A-TANK&quot; event on the 9th of September
                 2023 by 4:00 pm.
               </p>
             </div>{" "}
@@ -169,4 +169,4 @@ const events = () => {
   );
 };
 
-export default events;
+export default Events;

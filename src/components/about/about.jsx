@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import "./about.css";
 
-const about = () => {
+const About = () => {
   const handleWebClicks = (webLink) => {
     ReactGA.event({
       category: "Button",
@@ -139,4 +139,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
